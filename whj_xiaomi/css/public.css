@@ -1,0 +1,6 @@
+/*清除浏览器默认样式*/
+body,ul,li,h1,h2,h4,h5,p{  margin: 0;  padding: 0;  list-style: none; font-family: "微软雅黑";}
+a{ color: inherit; text-decoration: none;}
+input,textarea{ border: none; outline: none; padding: 0 10px;}
+select,option{ border: none; outline: none;}
+.clear:after{ content: ""; display: block;clear: both;}
